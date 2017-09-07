@@ -1,0 +1,16 @@
+
+my_num = as.integer(readline(prompt="Type a number: "))
+factorial = 1
+
+
+
+if(my_num < 0) {
+    print("Error, no negative numbers")
+} else if(my_num == 0) {
+    print("1")
+} else {
+    for(i in 1:my_num) {
+        factorial = factorial * i
+    }
+    print(paste("Factorial of", my_num ,"=",factorial))
+}
