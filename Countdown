@@ -1,0 +1,14 @@
+
+
+countdown_begin = function(from)
+{
+  print(from)
+  while(from!=0)
+  {
+    Sys.sleep(1)
+    from = from - 1
+    print(from)
+  }
+}
+
+countdown_begin(10)
